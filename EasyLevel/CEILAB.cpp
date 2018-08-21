@@ -7,7 +7,7 @@ int main(){
     cin>>a>>b;
     int diff;
     diff = a - b;
-    if(diff % 10 == 0)
+    if((diff+1) % 10 == 0)
         diff = diff +1;
     else
         diff = diff - 1;
