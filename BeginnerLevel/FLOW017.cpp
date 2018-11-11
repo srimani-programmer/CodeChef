@@ -11,13 +11,13 @@ int main(){
     for(int i=0;i<testcases;i++){
         int a,b,c;
         cin>>a>>b>>c;
-
-        if(a>b && a<c || a>c && a<b)
+        
+        if((a>b && a<c)|| (a>c && a<b))
             cout<< a <<endl;
-        else if(b>a && b<c || b<a && b>c)
+        else if((b>a && b<c) || (b>c && b<a))
             cout<<b<<endl;
         else
-            cout<<c;
+            cout<<c<<endl;
     }
 
     return 0;
