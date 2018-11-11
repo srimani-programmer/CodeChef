@@ -7,11 +7,18 @@ int main(){
     int testcases;
     cin>>testcases;
 
-    for(int i=0;i<testcases;i++){
-        int i;
-        cin>>i;
-       
-       
+    while(testcases--){
+        string s;
+        cin>>s;
+        int sum = 0;
+        int size = s.size();
+
+        int val = s[0] - '0';
+        sum = sum + val;
+        val = s[size-1] - '0';
+        sum = sum+val;
+
+        cout<<sum<<endl;
     }
 
     return 0;
