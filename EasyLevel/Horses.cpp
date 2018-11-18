@@ -20,7 +20,6 @@ int main(){
         }
 
         sort(a.begin(),a.end());
-
         int diff = a[1] - a[0];
 
         for(int i=2;i<size;i++){
