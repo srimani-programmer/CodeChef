@@ -1,0 +1,1 @@
+This folder contains the lunch-time challenges in codechef.
