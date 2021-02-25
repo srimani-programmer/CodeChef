@@ -16,7 +16,6 @@ try:
 
         return int(start_hour_hand), int(start_minute_hand)
 
-
     t = int(input())
 
     while t != 0:
